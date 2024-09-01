@@ -1,0 +1,26 @@
+Basic Web Server Check:
+Host: example.com
+Start Port: 1
+End Port: 1024
+Purpose: Check for open web services and other common services.
+
+
+Service-Specific Scan:
+Host: 192.168.1.1
+Start Port: 80
+End Port: 443
+Purpose: Check if a web server is running and if HTTPS is enabled.
+
+
+Comprehensive Network Scan:
+Host: 192.168.1.0 (use in a local network context)
+Start Port: 1
+End Port: 65535
+Purpose: Comprehensive scan of all ports to identify open services on a range of devices.
+
+
+Targeted Application Scan:
+Host: localhost or 127.0.0.1 (for local development)
+Start Port: 3000
+End Port: 5000
+Purpose: Scan for development services like web apps running on non-standard ports.

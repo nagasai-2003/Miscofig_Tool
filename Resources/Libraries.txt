@@ -1,0 +1,11 @@
+Selenium
+Openssl
+requests
+pyOpenSSL
+urllib
+ssl 
+socket
+re
+flask
+os 
+magic
